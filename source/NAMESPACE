@@ -1,0 +1,6 @@
+importFrom("stats", "dpois",  "BIC", "coef", "median", "poisson")
+importFrom("glmnet", "glmnet")
+importFrom("parallel", "mclapply")
+importFrom("prodlim", "row.match")
+importFrom("Matrix", "bdiag")
+export(BayesSigRef, SigRefitting)

@@ -1,0 +1,20 @@
+Package: BayesSigRefitting
+Title: A Bayesian Approach to Select Mutational Signatures
+Version: 0.0.3
+Date: 2024-04-22
+Authors@R: c(person(given="Min", family="Hua", role="aut", email="min.hua@nih.gov"),
+             person(given="Bin", family="Zhu", role="aut", email="bin.zhu@nih.gov"),
+             person(given="Bill", family="Wheeler", role="cre", email="wheelerb@imsweb.com"))
+Description: A Bayesian approach to select and refit an optimal set of signatures from a 
+    collection of reference signatures. BayesSigRefitting specifies a Bayesian hierarchical 
+    model for signature selection, imposes model sparsity using Laplace prior, 
+    and utilizes the Shotgun Stochastic Search algorithm to select reference signatures.
+Imports: stats, parallel, glmnet, prodlim, Matrix
+Depends: R (>= 4.1.0)
+License: GPL-2
+NeedsCompilation: no
+Packaged: 2024-04-22 15:25:23 UTC; wheelerwi
+Author: Min Hua [aut],
+  Bin Zhu [aut],
+  Bill Wheeler [cre]
+Maintainer: Bill Wheeler <wheelerb@imsweb.com>
