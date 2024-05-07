@@ -13,8 +13,3 @@ Imports: stats, parallel, glmnet, prodlim, Matrix
 Depends: R (>= 4.1.0)
 License: GPL-2
 NeedsCompilation: no
-Packaged: 2024-04-22 15:25:23 UTC; wheelerwi
-Author: Min Hua [aut],
-  Bin Zhu [aut],
-  Bill Wheeler [cre]
-Maintainer: Bill Wheeler <wheelerb@imsweb.com>
