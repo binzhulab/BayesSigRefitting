@@ -17,14 +17,15 @@ if (!requireNamespace("devtools", quietly = TRUE))
 	install.packages("devtools")
 devtools::install_github("binzhulab/BayesSigRefitting/source")
 ```
-Alternatively, download the package and follow the steps below. Download BayesSigRefitting_0.0.3.tar.gz (for Unix) or BayesSigRefitting_0.0.3.zip (for Windows, R version >= 4.0). To install BayesSigRefitting on Unix, enter the command (without the quotes) from a Unix prompt:
+Alternatively, download the package and follow the steps below. Download BayesSigRefitting_0.0.3.tar.gz (for Unix), BayesSigRefitting_0.0.3.zip (for Windows, R version >= 4.0) or BayesSigRefitting_0.0.3.tgz (for Mac). To install BayesSigRefitting on Unix, enter the command (without the quotes) from a Unix prompt:
 ```
 R CMD INSTALL BayesSigRefitting_0.0.3.tar.gz -l path_to_install_package
 ```
-Alternatively, BayesSigRefitting_0.0.3.tar.gz (for Unix) or BayesSigRefitting_0.0.3.zip (for Windows, R version >= 4.0) from the [Github page](https://github.com/binzhulab/BayesSigRefitting) are available and one may use the following commands:
+Alternatively, BayesSigRefitting_0.0.3.tar.gz (for Unix), BayesSigRefitting_0.0.3.zip (for Windows, R version >= 4.0) or BayesSigRefitting_0.0.3.tgz (for Mac) from the [Github page](https://github.com/binzhulab/BayesSigRefitting) are available and one may use the following commands:
 ```
 install.packages("BayesSigRefitting_0.0.3.tar.gz", repose = NULL, type = "source")
 install.packages("BayesSigRefitting_0.0.3.zip", repose = NULL, type = "win.binary")
+install.packages("BayesSigRefitting_0.0.3.tgz", repose = NULL, type = "mac.binary")
 ```
 Once the installation is successful, it can be loaded on **R** by calling 
 ```
